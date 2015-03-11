@@ -21,6 +21,7 @@ apply plugin: 'scala'
 apply plugin: 'forge'
 
 apply from: 'OriginGradle/index.gradle'
+apply from: 'OriginGradle/plugins/deps.gradle'
 
 repositories {
     maven {
